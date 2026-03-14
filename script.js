@@ -4,6 +4,7 @@ const prevBTN = document.getElementById('prev');
 const nextBTN = document.getElementById('next');
 const audio = document.getElementById('audio');
 const progress = document.getElementById('progress');
-const progressContainer = document.getElementById('music-container');
+const progressContainer = document.getElementById('progress-container');
+
 
 
