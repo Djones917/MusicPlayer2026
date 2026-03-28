@@ -8,5 +8,6 @@ const progressContainer = document.getElementById('progress-container');
 const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
+// SONG TITLES
 const songs = ['hey', 'summer', 'ukulele'];
 
