@@ -14,3 +14,5 @@ const songs = ['hey', 'summer', 'ukulele'];
 // Keep track of songs
 let songIndex = 2;
 
+// Initially load song details
+
