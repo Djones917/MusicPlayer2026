@@ -17,3 +17,7 @@ let songIndex = 2;
 // load song details
 loadSong(songs[songIndex]);
 
+function loadSong (song) {
+
+}
+
