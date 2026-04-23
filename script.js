@@ -18,6 +18,6 @@ let songIndex = 2;
 loadSong(songs[songIndex]);
 
 function loadSong (song) {
-
+  title.innerText = song;
 }
 
