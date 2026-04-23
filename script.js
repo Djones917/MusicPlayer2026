@@ -19,5 +19,6 @@ loadSong(songs[songIndex]);
 
 function loadSong (song) {
   title.innerText = song;
+  audio.scr = '';
 }
 
