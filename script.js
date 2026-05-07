@@ -20,5 +20,6 @@ loadSong(songs[songIndex]);
 function loadSong (song) {
   title.innerText = song;
   audio.scr = `music/${song}.mp3`;
+  cover.scr = `images/${song}.jpg`;
 }
 
