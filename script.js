@@ -23,3 +23,7 @@ function loadSong (song) {
   cover.scr = `images/${song}.jpg`;
 }
 
+playBtn.addEventListner('click', () => {
+  
+});
+
