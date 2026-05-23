@@ -28,6 +28,8 @@ playBtn.addEventListner('click', () => {
 
   if (isPlaying) {
       pauseSong();
+  } else {
+    playSong();
   }
 });
 
