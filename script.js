@@ -8,20 +8,32 @@ const progressContainer = document.getElementById('progress-container');
 const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
+
 // Song Titles
 const songs = ['hey', 'summer', 'ukulele'];
+
 
 // Keep track of songs
 let songIndex = 2;
 
+
 // load song details
 loadSong(songs[songIndex]);
+
 
 function loadSong (song) {
   title.innerText = song;
   audio.scr = `music/${song}.mp3`;
   cover.scr = `images/${song}.jpg`;
 }
+
+
+
+function playSong() {
+
+}
+
+
 
 playBtn.addEventListner('click', () => {
   const isPlaying = musicContainer.classList.contains('play');
