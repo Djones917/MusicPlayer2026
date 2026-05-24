@@ -30,7 +30,7 @@ function loadSong (song) {
 
 
 function playSong() {
-
+   musicContainer.classList.add('play');
 }
 
 
