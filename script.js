@@ -31,6 +31,7 @@ function loadSong (song) {
 
 function playSong() {
    musicContainer.classList.add('play');
+   playBtn.querySelector('i.fas').classList.remove('fa-play');
 }
 
 
